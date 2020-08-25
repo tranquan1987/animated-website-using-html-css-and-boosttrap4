@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="container-fluid text-white">
+ <nav class="row py-4">
+  <div class="col-lg-6 col-md-6 col-12  logo">
+   <h1> CBG </h1>
+  </div>
+
+  <div class="col-lg-6 col-md-6 col-12  ">
+   <ul class="d-flex  justify-content-around align-items-center list-unstyled text-uppercase">
+    <li> home </li>
+    <li>about </li>
+    <li> contact </li>
+   </ul>
+  </div>
+ </nav>
+
+
+ 
+ <div class="row main-content ">
+  <div class="col-md-6 col-12 leftside"> </div>
+
+  <div class="col-md-6 col-12 rightside d-flex justify-content-center align-items-center">
+   <div class="right-content w-50 ">
+   <h1>THERE IS BEAUTY <br> IN SIMPLICITY</h1>
+   <p>DONATION FOR SUPPORT:    PhonePay = vinodbahadur@ybl      GooglePay: vbthapa55@oksbi
+ Believe me all this money will be used to make more quality videos and to make my channel grow. So that I can always provide you awesome free videos :)</p>
+   <button> Read More</button>
+   </div>
+  </div>
+ </div>
+</div>
+
+</body>
+
+</html>
+
+
+
+
+
+CSS SOURCE CODE
+
+
+
+*{
+ margin: 0; padding: 0; box-sizing: border-box;
+ transition:background 0.3s linear;
+ font-family: 'Oswald', sans-serif;
+}
+
+@font-face{
+ font-family: chinafont;
+ src:url(china.ttf);
+}
+
+.logo h1{
+font-family: chinafont;
+transition:color 0.5s linear;
+}
+
+.logo h1:hover{
+ color: red;
+}
+
+ul li:hover{
+ color: rgba(255,0,0,1);
+ cursor: pointer;
+}
+
+.main-content{
+position: absolute;
+top: 0;
+width: 100%;
+z-index: -1;
+}
+
+.leftside{
+ background-image: linear-gradient(to left,rgba(0,0,0,0.1),rgba(0,0,0,0.2)), 
+      url('bg.jpg');
+ width: 100%; height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+
+
+  .rightside{
+ background: #000;
+}
+
+.right-content h1{
+ font-size: 35px;
+ font-weight: 400;
+ letter-spacing: 0.06em;
+ line-height: 1.25;
+ padding: 30px 0 35px 0;
+}
+
+.right-content p{
+ border-left: 1px solid #555;
+ font-weight: 100;
+ font-family: 'Raleway', sans-serif;
+ padding: 50px 30px;
+ font-size: 0.9em;
+
+}
+
+button{
+ border:none;
+ background: #fff;
+ letter-spacing: 0.25em;
+ font-weight: 700;
+ font-size: 10px;
+ text-transform: uppercase;
+ color: #111;
+ padding: 15px 25px;
+ margin: 30px 0 0 30px;
+ transition: all 0.3s linear;
+
+}
+
+button:hover{
+ background: rgba(255,0,0,0.7);
+ color: white;
+
+}
